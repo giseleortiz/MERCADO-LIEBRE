@@ -1,0 +1,44 @@
+
+.home__principal__section {
+    text-align: center;
+  }
+  .producto-main {
+    text-align: center;
+  }
+  
+  /* los iconos*/
+  .icono-Seguridad__footer i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    /* Tamaño de los íconos */
+    margin-bottom: 10px;
+    /* Margen inferior de separación de 10 píxeles */
+    color: #1259c3;
+  
+  
+  }
+  
+  .icono-regalo__footer i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    /* Tamaño de los íconos */
+    margin-bottom: 10px;
+    /* Margen inferior de separación de 10 píxeles */
+    color: #1259c3;
+  
+  }
+  
+  .icono-tarjeta__footer i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    /* Tamaño de los íconos */
+    margin-bottom: 10px;
+    /* Margen inferior de separación de 10 píxeles */
+    color: #1259c3;
+  }

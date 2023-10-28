@@ -1,0 +1,48 @@
+/* Header */
+
+header {
+    background-color: #EAC926;
+    color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centra los elementos horizontalmente */
+    text-align: left;
+}
+
+.search-bar__header {
+    width: 100%;/* Establece el ancho de la imagen al 100% del contenedor padre o "lo alarga mas " */
+    padding: 1%; 
+    background-color:#EAC926;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;   
+    border-radius:1px ;     
+    
+  }
+  
+  .search-bar__header input {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom:5px; 
+    margin-left:10px; 
+    border:1px solid gray;
+  }
+  
+  .caja-achicar__header { /* la caja buscar de  abajo*/
+    width: 70px; /*el ancho*/
+    margin:0 auto;
+  }
+
+
+.burger-menu-header i{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    background-color: blue;
+    padding: 7.5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+  
+   }

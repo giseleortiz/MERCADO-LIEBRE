@@ -29,7 +29,11 @@ li {
 i {
   margin-right: 10px;
 }
-
+div {
+  display: flex;
+  align-items: center;
+  color:#03264C
+}
 
 h4 i {
   margin-left: 50px;

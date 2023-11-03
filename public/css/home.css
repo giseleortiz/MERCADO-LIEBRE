@@ -1,45 +1,43 @@
-
 .home__principal__section {
-    text-align: center;
-  }
-  .producto-main {
-    text-align: center;
-  }
-  
-  /* los iconos*/
-  .icono-Seguridad__footer i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    /* Tamaño de los íconos */
-    margin-bottom: 10px;
-    /* Margen inferior de separación de 10 píxeles */
-    color: #1259c3;
-  
-  
-  }
-  
-  .icono-regalo__footer i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    /* Tamaño de los íconos */
-    margin-bottom: 10px;
-    /* Margen inferior de separación de 10 píxeles */
-    color: #1259c3;
-  
-  }
-  
-  .icono-tarjeta__footer i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    /* Tamaño de los íconos */
-    margin-bottom: 10px;
-    /* Margen inferior de separación de 10 píxeles */
-    color: #1259c3;
-  }
-  
+  text-align: center;
+}
+
+
+/*main*/
+
+.producto-main {
+  text-align: center; /* Centrar contenido horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.producto-main img {
+width: 500px; /* Tamaño de la imagen */
+display: block; /* Convertir la imagen en un bloque para centrarla horizontalmente */
+margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+
+
+
+
+
+
+/* FOOTER*/
+
+
+
+.icono-footer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.icono-footer i {
+font-size: 2em; /* Tamaño de fuente para los íconos (ajusta según sea necesario) */
+margin: 0 auto; /* Centra horizontalmente el ícono */
+color: #1259c3;
+}

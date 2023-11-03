@@ -1,10 +1,10 @@
 :root {
   --colorAmarillo: #EAC926;
   --colorAzul: #03264C;
-  --colorCeleste: #1259c3;
+  --colorCeleste: #1259C3; 
   --colorGrisOscuro: #666;
-  --colorGrisClaro: #ebebeb;
-  --colorVerde: #39b54a;
+  --colorGrisClaro: #EBEBEB; 
+  --colorVerde: #39B54A; 
   --tipografiaGeneral: "Roboto", sans-serif;
 }
 
@@ -19,7 +19,6 @@ body {
   font-size: 12px;
   margin: 0;
   padding: 0;
-
 }
 
 li {
@@ -29,10 +28,11 @@ li {
 i {
   margin-right: 10px;
 }
+
 div {
   display: flex;
   align-items: center;
-  color:#03264C
+  color: #03264C;
 }
 
 h4 i {
@@ -48,17 +48,50 @@ h4 {
   text-transform: lowercase;
   font-weight: normal;
   margin: 15px;
-
 }
 
 h1 {
   text-align: center;
 }
 
-h2,
-h3,
-p {
+h2 {
   color: #666;
   text-transform: lowercase;
   text-align: center;
+}
+
+/* Centrar el texto horizontalmente en .producto-main */
+.producto-main {
+  text-align: center;
+}
+
+.producto-main p, .producto-main h3 {
+  text-align: center;
+}
+
+/* Estilo para el texto en .icono-footer */
+.icono-footer {
+  text-align: center;
+  color: #666;
+  text-transform: lowercase;
+}
+
+/* Estilo para el texto en .texto-footer */
+
+
+.texto-footer {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.texto-footer h3 {
+  color: inherit; 
+}
+
+.texto-footer p {
+  color: #666; 
 }

@@ -8,5 +8,9 @@
 # Agregando estilo.
 ### 2da entrega fecha 23/10/23
 
+# Agregando adaptativo.
+### 3er entrega  30/10/23
+-------------------------------
+
 
 

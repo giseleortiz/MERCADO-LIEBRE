@@ -1,10 +1,10 @@
 :root {
   --colorAmarillo: #EAC926;
   --colorAzul: #03264C;
-  --colorCeleste: #1259C3; 
+  --colorCeleste: #1259C3; /* Corregido: faltaba una letra mayúscula */
   --colorGrisOscuro: #666;
-  --colorGrisClaro: #EBEBEB; 
-  --colorVerde: #39B54A; 
+  --colorGrisClaro: #EBEBEB; /* Corregido: faltaba una letra mayúscula */
+  --colorVerde: #39B54A; /* Corregido: faltaba una letra mayúscula */
   --tipografiaGeneral: "Roboto", sans-serif;
 }
 
@@ -37,7 +37,7 @@ div {
 
 h4 i {
   margin-left: 50px;
-  font-size: 12px;
+
   font-weight: 100;
   display: flex;
   align-items: center;
@@ -48,14 +48,17 @@ h4 {
   text-transform: lowercase;
   font-weight: normal;
   margin: 15px;
+  font-size: 12px;
 }
 
 h1 {
+  color: #666;
   text-align: center;
+  font-size: 24px
 }
 
 h2 {
-  color: #666;
+  color:var(--colorGrisClaro);
   text-transform: lowercase;
   text-align: center;
 }
@@ -67,12 +70,18 @@ h2 {
 
 .producto-main p, .producto-main h3 {
   text-align: center;
+  margin-bottom:10PX;
+  
+}
+.producto-main h3{
+  color: #666;
+  font-size :24px; ;
 }
 
 /* Estilo para el texto en .icono-footer */
 .icono-footer {
   text-align: center;
-  color: #666;
+  color:var(--colorGrisClaro);
   text-transform: lowercase;
 }
 
@@ -89,9 +98,42 @@ h2 {
 }
 
 .texto-footer h3 {
-  color: inherit; 
+  color:var(--colorGrisOscuro);
+  font-size: 16px;
+
+
 }
 
 .texto-footer p {
   color: #666; 
+  font-size: 16px;
+  margin-bottom:10PX;
+
+}
+
+.producto-main p {
+/* Eliminar el margen predeterminado de los párrafos  adaptativo*/
+  font-size: 24px;
+}
+
+
+.descuento-off P{
+  color:var(--colorVerde);
+  font-size: 20px
+}
+.camioncito{   
+  width: 80px; /* Ancho del círculo */
+  height: 80px; /* Altura del círculo (mismo valor que el ancho) */
+  background-color: transparent; /* Color de fondo transparente para el círculo */
+  border: 1px solid var(--colorVerde); /* Borde verde de 2 píxeles */
+  border-radius: 50%; /* Configura el radio del borde para hacerlo circular */
+  text-align: left; /* Para centrar el contenido dentro del círculo */
+  color:var(--colorVerde); 
+
+}
+.camioncito{
+  font-size: 2em;
+ /* position: relative;
+  top: 10px;
+  left: 20px*/
 }

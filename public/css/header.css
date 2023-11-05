@@ -86,8 +86,8 @@ position: absolute;
 top: 50%;
 right: 10px;
 transform: translateY(-50%);
-color: #555; /* Cambia el color a tu preferencia */
-font-size: 16px; /* Cambia el tamaño del ícono a tu preferencia */
+color: #555; /* Cambia el color */
+font-size: 16px; /* Cambia el tamaño del ícono */
 }
 
 

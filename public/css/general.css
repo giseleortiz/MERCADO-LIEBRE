@@ -1,139 +1,167 @@
 :root {
   --colorAmarillo: #EAC926;
   --colorAzul: #03264C;
-  --colorCeleste: #1259C3; /* Corregido: faltaba una letra mayúscula */
+  --colorCeleste: 1259C3#; /* Corregido: faltaba una letra mayúscula */
   --colorGrisOscuro: #666;
   --colorGrisClaro: #EBEBEB; /* Corregido: faltaba una letra mayúscula */
   --colorVerde: #39B54A; /* Corregido: faltaba una letra mayúscula */
   --tipografiaGeneral: "Roboto", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+body{
+  font-family: 'Roboto', sans-serif;
+  font: size 12px;
+  background-color: #EBEBEB;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+a {
+  background-color: transparent;
+}
+
+
+main {
+  margin: auto;
+  width: 90vw;
+  background-color: #ebebeb;
+  margin-bottom: 50px; 
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-  margin: 0;
-  padding: 0;
+.banner{
+  width: 100vw;
+  margin-left: -5vw;
 }
 
-li {
-  list-style-type: none;
-}
-
-i {
-  margin-right: 10px;
-}
-
-div {
-  display: flex;
-  align-items: center;
-  color: #03264C;
-}
-
-h4 i {
-  margin-left: 50px;
-
-  font-weight: 100;
-  display: flex;
-  align-items: center;
-}
-
-h4 {
-  color: #666;
-  text-transform: lowercase;
-  font-weight: normal;
-  margin: 15px;
-  font-size: 12px;
-}
-
-h1 {
-  color: #666;
-  text-align: center;
-  font-size: 24px
-}
-
-h2 {
-  color:var(--colorGrisClaro);
-  text-transform: lowercase;
-  text-align: center;
-}
-
-/* Centrar el texto horizontalmente en .producto-main */
-.producto-main {
-  text-align: center;
-}
-
-.producto-main p, .producto-main h3 {
-  text-align: center;
-  margin-bottom:10PX;
-  
-}
-.producto-main h3{
-  color: #666;
-  font-size :24px; ;
-}
-
-/* Estilo para el texto en .icono-footer */
-.icono-footer {
-  text-align: center;
-  color:var(--colorGrisClaro);
-  text-transform: lowercase;
-}
-
-/* Estilo para el texto en .texto-footer */
-
-
-.texto-footer {
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.texto-footer h3 {
-  color:var(--colorGrisOscuro);
-  font-size: 16px;
-
-
-}
-
-.texto-footer p {
-  color: #666; 
-  font-size: 16px;
-  margin-bottom:10PX;
-
-}
-
-.producto-main p {
-/* Eliminar el margen predeterminado de los párrafos  adaptativo*/
+.titulares {
   font-size: 24px;
 }
+.precios {
+  
+  font-size: 18px;
+  width: 30%;
+}
+.descuento{
+  font-size: 16px;
+  color:#39b54a;
+  width: 70%;
+  text-align: right;
+  
+}
+/* para ubicarlos en la misma linea */
+.precio-descuento{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.descuento{
+  align-self: center;
+
+}
+.descuento{
+  font-size: 16px;
+  color: (var(--colorVerde));
+  width: 70%;
+  text-align:right ;
+}
+.precio-descuento{
+  display: flex;
+  flex-wrap: wrap;
+}
+.descuento{
+  align-self: center;
+
+}
+
+/* tamañno de precios*/
+
+.producto{
+  border-top: 1px;
+  border:solid #EBEBEB 1px;
+  padding:15px ;
+  line-height:2px ;
+  padding-left:15px ;
+  background-color: white;
+ margin-top:2px ;
+ position: relative;
+}
 
 
-.descuento-off P{
-  color:var(--colorVerde);
-  font-size: 20px
+
+/*paraa despositivos */
+
+@media(min-width:361px){
+  .nombre_producto{
+    line-height: 24px;
+    display:block
+  }
+
+  .barra_navegacion{
+    display: flex;
+    justify-content: space-between;
 }
-.camioncito{   
-  width: 80px; /* Ancho del círculo */
-  height: 80px; /* Altura del círculo (mismo valor que el ancho) */
-  background-color: transparent; /* Color de fondo transparente para el círculo */
-  border: 1px solid var(--colorVerde); /* Borde verde de 2 píxeles */
-  border-radius: 50%; /* Configura el radio del borde para hacerlo circular */
-  text-align: left; /* Para centrar el contenido dentro del círculo */
-  color:var(--colorVerde); 
+.burger-menu{
+  display: none;
+}
+.arriba-barra-nav{
+
+
 
 }
-.camioncito{
-  font-size: 2em;
- /* position: relative;
-  top: 10px;
-  left: 20px*/
+
+
+  .compra-en-cuotas{
+
+  }
+
+
+
+  .articulos{
+
+
+  }
+
+  .ultima-vista, .section-ofertas{
+
+    display:     flex;            
+
+                flex-wrap        :wrap;
+     justify-content: space-around;
+  }
+/* para compu */
+@media(min-width:769px){
+
+  .arriba-barra-nav, .barra_navegacion{
+    max-width: 1200px;
+    margin:auto;
+
 }
+.barra_navegacion li{
+  margin: 0px 6px;
+
+}
+
+
+  .barra_navegacion a{
+
+  }
+
+  .busqueda-y-logo{
+
+    width: 60%;
+
+  }
+
+    .busqueda{
+
+      font-size: 16px;
+
+}
+
+
+
+
+
+

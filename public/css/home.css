@@ -1,96 +1,73 @@
-.home__principal__section {
+.producto{
+  border-top:1px ;
+  border:solid #ebebeb 1px;
+  padding:15px  ;
+  line-height: 2px;
+  padding-left:15px ;
+  background-color: white;
+  margin-top: 2px; 
+position: relative;
+}     
+
+/*version mobile ( displey none )asi no figura en la descripcion */
+nombre_producto{
+  font-size: 16px; 
+  color: grey ;
+margin-bottom:0% ;
+font-weight:bold ;
+display:none;
+}
+
+main section img{
+  width:100%
+
+}
+.img_producto{
+  width: 100%;
+  margin-bottom:0%;
+  background-color: white;
+}
+main section{
+  margin:auto;
+}
+
+.camion{
+  color:var(--colorVerde);
+  border: #39b54a solid 1,5px ;
+border-radius:100% ;
+padding:5px ;
+text-align:center;
+position: absolute;
+    right: 10px;
+    top: -25px;  
+}
+
+
+/*mofique todo el footer*/
+footer {
   text-align: center;
+  background-color: white;
+  padding-top: 30px;
 }
 
-
-/*main*/
-
-.producto-main {
-  text-align: center; /* Centrar contenido horizontalmente */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* modificador de secciones */
+footer .pagos{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 30px;
 }
 
-.producto-main img {
-width: 500px; /* Tamaño de la imagen */
-display: block; /* Convertir la imagen en un bloque para centrarla horizontalmente */
-margin: 0 auto; /* Centrar la imagen horizontalmente */
-}
+footer i{
+  font-size: 2em;
+margin-bottom:10px ;
+color: var(--colorCeleste);
 
-
-
-
-/*ADAPTATIVO*/
-
-
-.home__principal__section__article {
-  margin-bottom: 10px; /* Separación de 10 píxeles entre los artículos */
-  border-top: 1px solid #ebebeb; /* Borde superior de 1 píxel sólido con color #ebebeb */
-  padding: 15px; /* Separación de contenido de los bordes en cada lado */
-  
-}
-
-  .producto-main {
-    display: flex; /* Hacer que el contenido sea un flexbox para centrar los elementos */
-    align-items: center; /* Centrar verticalmente los elementos en el flexbox */
-}
-
-.producto-main img {
-    width: 500px; /* Tamaño de imagen fijo*/
-}
-
-.home__principal-main {
-  width: 90%; /* Ocupa el 90% del ancho de la pantalla */
-  margin: 0 auto; /* Centrar la sección */
-}
-
-
-
-/*ofertas*/
-/* Estilos para el contenido dentro de cada artículo de producto */
-.producto-main {
-  margin-bottom: 10px; /* Separación de 10 píxeles entre los artículos */
-  border-top: 1px solid #ebebeb; /* Borde superior de 1 píxel sólido con color #ebebeb */
-  padding: 15px; /* Separación de contenido de los bordes en cada lado */
-  
-}
-.producto-main{
-  margin-bottom: 10px; /* Separación de 10 píxeles entre los artículos */
-  border: 20px solid #ebebeb; /* Borde superior de 1 píxel sólido con color #ebebeb */
-  padding: 15px; /* Separación de contenido de los bordes en cada lado */
-}
-
-
-
-/* FOOTER*/
-
-
-
-.icono-footer {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-}
-
-.icono-footer i {
-font-size: 2em; /* Tamaño de fuente para los íconos (ajusta según sea necesario) */
-margin: 0 auto; /* Centra horizontalmente el ícono */
-color: #1259c3;
-}
-/* Estilos para dispositivos móviles (ancho máximo de 360px) */
-@media (max-width: 360px) {
-  .login-bar {
-    display: none; /* Oculta la barra de inicio de sesión en dispositivos móviles */
-}
 
 }
-
-/* Estilos para dispositivos con un ancho mínimo de 361px (tablets) y resoluciones superiores */
-@media (min-width: 361px) {
-    .burger-menu-header {
-        display: none; /* Oculta el ícono de menú hamburguesa en tablets y desktop */
-    }
+footer h4{
+  margin-bottom: 2px;
+}
+.Copyright{
+  text-align: left;
+  opacity:0,5 ;
 }

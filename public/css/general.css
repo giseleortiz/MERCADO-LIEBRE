@@ -105,63 +105,91 @@ main {
 .burger-menu{
   display: none;
 }
-.arriba-barra-nav{
 
+.arriba-barra-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.compra-en-cuotas{
+  max-width: 350px;
+  text-align: right;
+}
+.left-navbar, .right-navbar{
+  display: flex;
+  flex-wrap: wrap;
+}
+.barra_navegacion li{
+  margin: 0px 3px;  
 
 
 }
 
+.articulos{
+  width: 45%;
+  background-color: white;
+  margin-bottom: 10px;
+}
 
-  .compra-en-cuotas{
-
-  }
-
-
-
-  .articulos{
-
-
-  }
+  
 
   .ultima-vista, .section-ofertas{
-
-    display:     flex;            
-
-                flex-wrap        :wrap;
-     justify-content: space-around;
+  display: flex;            
+ flex-wrap :wrap;
+justify-content: space-around;
   }
-/* para compu */
+
+
+
+
+
+
+
+
+
+}
 @media(min-width:769px){
 
   .arriba-barra-nav, .barra_navegacion{
     max-width: 1200px;
     margin:auto;
-
 }
 .barra_navegacion li{
-  margin: 0px 6px;
-
+    margin: 0px 6px;
+}
+.barra_navegacion a{
+    font-size: 20px;
+}
+.busqueda-y-logo{
+   width: 60%;
+}
+.busqueda{
+    width: 100%;
+}
+.busqueda p{
+    font-size: 16px;
+}
+ /* modificando el main */
+ .articulos{
+    width: 23%;
+}
+.ultima-vista, .section-ofertas{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
 }
 
+/* para que la descripcion se muestre solo cuando
+ paso con el mouse */
 
-  .barra_navegacion a{
 
-  }
-
-  .busqueda-y-logo{
-
-    width: 60%;
-
-  }
-
-    .busqueda{
-
-      font-size: 16px;
-
+.articulos:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+/* modificadores footer */
+.orden-pagos{
+    display:flex;
 }
 
-
-
-
+}
 
 

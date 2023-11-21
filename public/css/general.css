@@ -189,6 +189,9 @@ justify-content: space-around;
 .orden-pagos{
     display:flex;
 }
+footer i:hover{
+  color:#EAC926
+}
 
 }
 

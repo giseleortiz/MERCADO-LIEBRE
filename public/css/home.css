@@ -41,6 +41,18 @@ position: absolute;
 right: 10px;
     top: -25px;  
 }
+/* hace que el camion sea cool*/
+@keyframes giro{
+  0%{  transform: rotateZ(0deg) }
+  50%{  transform: rotateZ(-90deg) }
+  100%{  transform: rotateZ(0deg) }
+}
+.camion:hover{
+  animation: giro 1,5s;
+} 
+
+
+
 
 /*-----------------------------------------*/
 /*mofique todo el footer*/
@@ -71,3 +83,53 @@ footer h4{
   text-align: left;
   opacity:0,5 ;
 }
+/*agregando magia al mercado liebre*/
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+details {
+  display: block;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button 
+{
+  height: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+@keyframes giro{
+  0%{  transform: rotateZ(0deg) }
+  50%{  transform: rotateZ(-90deg) }
+  100%{  transform: rotateZ(0deg) }
+}
+.camion:hover{
+  animation: giro 1s;
+} 

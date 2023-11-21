@@ -59,9 +59,9 @@ font-size: 16px;
 }
 
 .burguer-menu{
-  display: block;
-  max-width: 40px;
-  background-color: #1259C3; ;
+display: block;
+max-width: 40px;
+ background-color: #1259C3; ;
 color:white; /* Cambia el color */
 font-size: 18px; /* Cambia el tamaño del ícono */
 color:white ;

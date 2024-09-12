@@ -2,92 +2,74 @@
 
 header {
   background-color: #EAC926;
-  color: #ebebeb;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Centra los elementos horizontalmente */
-  text-align: center;
- 
+ padding: 20%;
+}
+logo{
+  width: 50%;
+}
+.compra-en-cuotas{
+  font-weight: 400;
+text-align: center;
 }
 
-.search-bar__header {
-  width: 100%;/* Establece el ancho de la imagen al 100% del contenedor padre o "lo alarga mas " */
-  padding: 1%; 
-  background-color:#EAC926;
+.busqueda-y-logo{
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+ 
+.busqueda-y-logo{
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+}
+.busqueda-y-logo{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;   
-  border-radius:1px ;     
-  
+}
+.buscador .espacio-buscador{
+  width: 90%;
 }
 
-.search-bar__header input {
-  width: 100%;
-  padding: 10px; 
-  margin-bottom:5px; 
-  margin-left:10px; 
-  border:1px solid gray;
+ .busqueda{
+  width: 90%;
 }
 
-.caja-achicar__header { /* la caja buscar de  abajo*/
-  width: 70px; /*el ancho*/
-  margin:0 auto;
+.barra_navegacion{
+display: none; /* Hacer que la imagen sea un bloque para centrarla horizontalmente */
 
 }
 
 
-.burger-menu-header i{
-  font-size: 20px;
-  color: white;
-  margin-bottom: 20px;
-  margin-left: 150px;
-  background-color: blue;
-  padding: 7.5px 10px;
-  border-radius: 5px;
-  display: inline-block;
-
- }
-/*adaptaivo*/
-
-
-
-
-.producto-main {
-text-align: center; /* Centrar contenido horizontalmente */
-}
-
-.producto-main img {
-display: block; /* Hacer que la imagen sea un bloque para centrarla horizontalmente */
-margin: 0 auto; /* Centrar la imagen horizontalmente */
-width: 500px; /* Tamaño de la imagen */
-}
-
-
-.producto-main p, .producto-main h3 {
-text-align:center; /* Centrar el texto horizontalmente */
-
-margin-top: 20px; /* Margen superior de 20 píxeles */
-margin-bottom: 20px; /* Margen inferior de 20 píxeles */
-}
-
-
-.search-box {
+ .barra_navegacion ul{
+list-style: style none; ;
+margin:0; 
+padding: 0;
 position: relative;
 display: inline-block;
 }
 
-input[type="text"] {
-padding-right: 30px; /* Ajusta el espacio a la derecha para acomodar el ícono */
+.barra_navegacion a {
+text-decoration: none;
+color:black ;
+display: inline-block;
+padding: 5px;
+font-size: 16px;
 }
 
-.fa-magnifying-glass {
-position: absolute;
-top: 50%;
-right: 10px;
-transform: translateY(-50%);
-color: #555; /* Cambia el color */
-font-size: 16px; /* Cambia el tamaño del ícono */
+.burguer-menu{
+display: block;
+max-width: 40px;
+ background-color: #1259C3; ;
+color:white; /* Cambia el color */
+font-size: 18px; /* Cambia el tamaño del ícono */
+color:white ;
+text-align: center;
+padding: 10px 0px;
+border:8px ;
+margin:auto;
+box-sizing: border-box;
 }
 
 

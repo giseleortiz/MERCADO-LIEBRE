@@ -1,0 +1,40 @@
+:root {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --GrisOscuro: #666;
+    --GrisClaro: #ebebeb;
+    --Verde: #39b54a;
+}
+
+/* modificando el main */
+main{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+main div{
+    margin-bottom: 10px;
+
+}
+.fecha-nac, .categorias, .foto{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.file{
+    text-align: center;
+}
+.input{
+    width: 40%;
+    box-sizing: border-box;
+    
+   
+}
+
+.input:hover{
+    background-color: rgb(201, 200, 200);
+}
+
